@@ -14,6 +14,7 @@ class Inventario:
     def buscar_producto_por_rango_precio(self, precio_min, precio_max):
         return [p for p in self.productos if precio_min <= p["precio"] <= precio_max]
     
+   #Prueba 
     def mostrar_productos(self, productos=None):
         if productos is None:
             productos = self.productos
