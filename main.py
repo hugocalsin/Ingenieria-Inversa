@@ -11,4 +11,5 @@ root.geometry("300x400")
 # Mostrar la pantalla de login por defecto
 show_login(root, show_calculator)
 
+#Se lanza 
 root.mainloop()
